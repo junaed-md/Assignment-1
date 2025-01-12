@@ -1,0 +1,57 @@
+/* Global style */
+
+
+* {
+    margin: 0;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0px auto 80px auto;
+}
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.bg-color {
+    background-color: #FFFFFF;
+}
+
+
+/* Hero section */
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 20px;
+}
+
+.banner-greet {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+
+.banner-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+}
+.hero-img {
+    height: 400px;
+    width: 400px;
+}
