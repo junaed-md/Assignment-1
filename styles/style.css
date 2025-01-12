@@ -257,7 +257,14 @@ section {
     letter-spacing: 0%;
     text-align: left;
 }
+.button-group label:hover {
+    background-color: darkgray;
+}
 
+.all-btn:hover{
+    background-color: rgb(74, 71, 71);
+    cursor: pointer;
+}
 .button-group input[type="radio"]:checked+label {
     background: rgb(198, 228, 214);
     color: rgba(14, 14, 14, 0.8);
