@@ -22,6 +22,35 @@ body {
     background-color: #FFFFFF;
 }
 
+.primary-btn {
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+section {
+    margin-top: 80px;
+}
+
+.primary-title {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.primary-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
 
 /* Hero section */
 .banner {
@@ -50,8 +79,85 @@ body {
     font-weight: 700;
     line-height: 67px;
     text-align: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
+
 .hero-img {
     height: 400px;
     width: 400px;
 }
+
+/* Vision section */
+.vision-title-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.card {
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.card-des {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.card-btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.card-btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+}
+.card-btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+}
+.card-btn-3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.cards{
+    display: flex;
+    gap: 24px;
+}
+.card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    background: rgb(198, 228, 214);
+}
+.card-3{
+    background: rgb(247, 235, 207);
+}
+
+.quote-div{
+    margin-top: 32px;
+    padding: 48px 24px 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:top left;
