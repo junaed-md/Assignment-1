@@ -100,7 +100,7 @@ section {
     border-radius: 16px;
 }
 
-.card-title {
+.card-title{
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
@@ -123,17 +123,19 @@ section {
     border: none;
 }
 
-.card-btn-1{
+.card-btn-1 {
     border-radius: 8px;
     background: rgb(84, 144, 245);
     color: rgb(255, 255, 255);
 }
-.card-btn-2{
+
+.card-btn-2 {
     border-radius: 8px;
     background: rgb(9, 161, 92);
     color: rgb(255, 255, 255);
 }
-.card-btn-3{
+
+.card-btn-3 {
     border-radius: 8px;
     background: rgb(255, 194, 57);
     color: rgb(255, 255, 255);
@@ -141,24 +143,49 @@ section {
 
 
 
-.cards{
+.cards {
     display: flex;
     gap: 24px;
 }
-.card-1{
+
+.card-1 {
     background: rgba(84, 144, 245, 0.2);
 }
-.card-2{
+
+.card-2 {
     background: rgb(198, 228, 214);
 }
-.card-3{
+
+.card-3 {
     background: rgb(247, 235, 207);
 }
 
-.quote-div{
+.quote-div {
     margin-top: 32px;
     padding: 48px 24px 48px 24px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
-    background-position:top left;
+    background-position: top left;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.q-author {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.author-des{
+    color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
 }
